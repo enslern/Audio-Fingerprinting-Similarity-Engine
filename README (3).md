@@ -60,7 +60,7 @@ This extracts features from every song and saves them to `data/features.json`.
 
 ### Processing a library
 
-![Process](../assets/process.png)
+![Process](assets/process.png)
 
 ---
 
@@ -70,7 +70,7 @@ This extracts features from every song and saves them to `data/features.json`.
 python main.py search interstellar.mp3
 ```
 
-![Search](../assets/search.png)
+![Search](assets/search.png)
 
 Returns a ranked list with similarity scores and plain-English reasons — e.g. *"Similar energy profile"*, *"Similar harmonic structure"*.
 
@@ -82,7 +82,7 @@ Returns a ranked list with similarity scores and plain-English reasons — e.g. 
 python main.py compare interstellar.mp3 dune.mp3
 ```
 
-![Compare](../assets/compare.png)
+![Compare](assets/compare.png)
 
 Side-by-side breakdown of BPM, energy levels, harmonic similarity, and overall cosine similarity score.
 
@@ -94,7 +94,7 @@ Side-by-side breakdown of BPM, energy levels, harmonic similarity, and overall c
 python main.py report interstellar.mp3
 ```
 
-![Report](../assets/report.png)
+![Report](assets/report.png)
 
 Full acoustic fingerprint (tempo, energy, brightness) with closest matches.
 
@@ -106,7 +106,7 @@ Full acoustic fingerprint (tempo, energy, brightness) with closest matches.
 python main.py stats
 ```
 
-![Stats](../assets/stats.png)
+![Stats](assets/stats.png)
 
 Library-wide statistics: average BPM, highest and lowest energy songs.
 
