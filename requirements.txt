@@ -1,0 +1,6 @@
+librosa
+numpy
+
+# Optional, for pretrained embedding mode (USE_PRETRAINED=True in embedding_generator.py)
+# openl3
+# tensorflow
